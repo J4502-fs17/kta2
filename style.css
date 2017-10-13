@@ -22,6 +22,12 @@ h1{
   font-weight:bold 400;
 }
 
+h2{
+  font-family:"Playfair Display", Georgia, "Times New Roman", serif;
+  color:#02133B;
+  font-weight:200;
+}
+
 #nav a:link, a:visited{
   display:block;
   color:#54585C;
