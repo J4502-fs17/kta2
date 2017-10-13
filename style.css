@@ -43,3 +43,8 @@ h2{
 #nav a:hover, #nav a:active{
   background-color:#011482;
 }
+
+#footer{
+  background-color:#02133B;
+  color:#54585C;
+}
