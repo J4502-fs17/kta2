@@ -10,11 +10,17 @@
 
 p{
   color:black;
-  font-family: 'Crimson Text', Georgia, 'Times New Roman', serif;
+  font-family: "Crimson Text", Georgia, "Times New Roman", serif;
   font-size:1rem;
   line-height:1.5rem;
 }
 
+h1{
+  font-family:"Playfair Display", Georgia, "Times New Roman", serif;
+  color:#02133B;
+  /*font-size:?? idk what the font size should be*/
+  font-weight:bold 400;
+}
 
 #nav a:link, a:visited{
   display:block;
