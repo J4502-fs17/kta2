@@ -8,7 +8,12 @@
   text-align:left;
 }
 
-
+p{
+  color:black;
+  font-family: 'Crimson Text', Georgia, 'Times New Roman', serif;
+  font-size:1rem;
+  line-height:1.5rem;
+}
 
 
 #nav a:link, a:visited{
@@ -24,9 +29,4 @@
 
 #nav a:hover, #nav a:active{
   background-color:#011482;
-
-  p{
-    color:black;
-    font-family: 'crimson text', Georgia, 'Times New Roman', serif;
-    font-size:1rem;
-    line-height:1.5rem
+}
