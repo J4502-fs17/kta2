@@ -8,13 +8,14 @@
   text-align:left;
 }
 
+
+
+
 #nav a:link, a:visited{
   display:block;
-  color:#ffffff;
-  background-color:#1b35c6;
-  font-weight:bold;
+  color:#54585C;
+  background-color:#F1B82D;
   text-align:center;
-  text-decoration:none;
   padding:4px;
   font-family:"Arimo", Helvetica, Arial, sans-serif;
 
