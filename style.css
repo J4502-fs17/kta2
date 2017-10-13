@@ -9,7 +9,7 @@
 }
 
 p{
-  color:black;
+  color:##011482;
   font-family: "Crimson Text", Georgia, "Times New Roman", serif;
   font-size:1rem;
   line-height:1.5rem;
@@ -45,6 +45,5 @@ h2{
 }
 
 #footer{
-  color:#011482;
   background-color:#02133B;
 }
