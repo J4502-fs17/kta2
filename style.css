@@ -24,6 +24,7 @@
 
 #nav a:hover, #nav a:active{
   background-color:#011482;
+<<<<<<< HEAD
 }
 
 #footer{
@@ -33,3 +34,11 @@
   color: white;
   text-align: center;
 }
+=======
+
+  p{
+    color:black;
+    font-family: 'crimson text', Georgia, 'Times New Roman', serif;
+    font-size:1rem;
+    line-height:1.5rem
+>>>>>>> 0478c3269b47122f1cd0cd86d12cba9f795d5264
