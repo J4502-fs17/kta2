@@ -81,4 +81,15 @@ h2{
   text-align: center;
   font-style: normal;
   font-size:20px;
+  text-decoration: none;
+}
+
+.search-chapter-by-letter a:link, .search-chapter-by-letter a:visited{
+  text-align:center;
+  text-decoration:none;
+  color: black;
+}
+
+.search-chapter-by-letter a:hover, .search-chapter-by-letter a:active{
+  text-decoration: underline;
 }
