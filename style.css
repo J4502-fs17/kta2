@@ -1,4 +1,4 @@
-.nav ul{
+#nav ul{
   list-style-type:none;
   float:left;
   margin:0;
@@ -7,7 +7,7 @@
   list-style-type:none;
   text-align:left;
 }
-.nav a:link, a:visited{
+#nav a:link, a:visited{
   display:block;
   color:#54585C;
   background-color:#F1B82D;
@@ -18,7 +18,7 @@
 
 }
 
-.nav a:hover, #nav a:active{
+#nav a:hover, #nav a:active{
   background-color:#011482;
 }
 
