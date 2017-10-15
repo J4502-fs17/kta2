@@ -23,7 +23,13 @@
 }
 
 #membershipnav{
-  background-color:#F1B82D
+  display:block;
+  color:#54585C;
+  background-color:#F1B82D;
+  text-align:center;
+  text-decoration:none;
+  padding:4px;
+  font-family:"Arimo", Helvetica, Arial, sans-serif;
 
 }
 
