@@ -68,12 +68,17 @@ h2{
 <<<<<<< HEAD
 }*/
 
-#footer{
-  background-color:#02133B;
-  opacity: 10%;
-  font-style: normal;
-  color: white;
+
+/*what is this??>>>>>>> 3254793ed3f3dacae35549ea3291acb227046937*/
+
+.section-heading{
+  font-family:"Arimo", Helvetica, Arial, sans-serif;
+  font-size:30px;
   text-align: center;
 }
 
-/*what is this??>>>>>>> 3254793ed3f3dacae35549ea3291acb227046937*/
+.search-chapter-by-letter{
+  text-align: center;
+  font-style: normal;
+  font-size:20px;
+}
