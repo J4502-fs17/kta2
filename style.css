@@ -45,6 +45,7 @@ p{
   color:white;
   font-size:1rem;
   line-height:1.5rem;
+  text-align: center;
 }
 /*this is already above p{
   color:black;
@@ -60,6 +61,7 @@ h1{
   color:#02133B;
   /*font-size:?? idk what the font size should be*/
   font-weight:bold 400;
+  text-align:center;
 }
 
 h2{
