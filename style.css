@@ -40,6 +40,12 @@ p{
   line-height:1.5rem;
 }
 
+#footer{
+  background-color: #02133B;
+  color:white;
+  font-size:1rem;
+  line-height:1.5rem;
+}
 /*this is already above p{
   color:black;
   font-family: 'crimson text', Georgia, 'Times New Roman', serif;
