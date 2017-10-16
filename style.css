@@ -93,3 +93,13 @@ h2{
 .search-chapter-by-letter a:hover, .search-chapter-by-letter a:active{
   text-decoration: underline;
 }
+
+#school-list a:link, #school-list a:visited{
+  color: black;
+}
+
+.letters{
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
