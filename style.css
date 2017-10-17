@@ -5,12 +5,13 @@
   padding:0;
   width:25%;
   text-align:left;
+  text-decoration:none;
 }
 #nav a:link, a:visited{
   display:block;
   color:#54585C;
   background-color:#F1B82D;
-  text-align:center;
+  text-align:left;
   text-decoration:none;
   padding:4px;
   font-family:"Arimo", Helvetica, Arial, sans-serif;
