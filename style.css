@@ -1,40 +1,12 @@
-.nav ul{
+#nav ul{
   list-style-type:none;
   float:left;
   margin:0;
   padding:0;
   width:25%;
-  list-style-type:none;
   text-align:left;
 }
-
-p{
-  color:black;
-  font-family: "Crimson Text", Georgia, "Times New Roman", serif;
-  font-size:1rem;
-  line-height:1.5rem;
-}
-
-h1{
-  font-family:"Playfair Display", Georgia, "Times New Roman", serif;
-  color:#02133B;
-  /*font-size:?? idk what the font size should be*/
-  font-weight:bold 400;
-}
-
-.logo{
-  margin:auto;
-
-}
-
-h2{
-  font-family:"Arimo", Helvetica, Arial, sans-serif;
-  color:#02133B;
-  font-weight:400;
-  text-align:center;
-}
-
-.nav a:link, a:visited{
+#nav a:link, a:visited{
   display:block;
   color:#54585C;
   background-color:#F1B82D;
@@ -45,11 +17,67 @@ h2{
 
 }
 
-.nav a:hover, #nav a:active{
+#nav a:hover, #nav a:active{
   background-color:#011482;
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
+
+#membershipnav{
+  display:block;
+  color:#54585C;
+  background-color:#F1B82D;
+  text-align:center;
+  text-decoration:none;
+  padding:4px;
+  font-family:"Arimo", Helvetica, Arial, sans-serif;
+  list-style-type:none;
+
+}
+
+p{
+  color:black;
+  font-family: "Crimson Text", Georgia, "Times New Roman", serif;
+  font-size:1rem;
+  line-height:1.5rem;
+}
+
+#footer{
+  background-color: #02133B;
+  color:white;
+  font-size:1rem;
+  line-height:1.5rem;
+  text-align: center;
+}
+/*this is already above p{
+  color:black;
+  font-family: 'crimson text', Georgia, 'Times New Roman', serif;
+  font-size:1rem;
+  line-height:1.5rem
+what is this?>>>>>>> 0478c3269b47122f1cd0cd86d12cba9f795d5264
+=======
+}*/
+
+h1{
+  font-family:"Playfair Display", Georgia, "Times New Roman", serif;
+  color:#02133B;
+  /*font-size:?? idk what the font size should be*/
+  font-weight:bold 400;
+  text-align:center;
+}
+
+h2{
+  font-family:"Arimo", Helvetica, Arial, sans-serif;
+  color:#02133B;
+  font-weight:400;
+  text-align:center;
+}
+
+
+/*what is this <<<<<<< HEAD
+<<<<<<< HEAD
+}*/
+
+
+/*what is this??>>>>>>> 3254793ed3f3dacae35549ea3291acb227046937*/
 
 .section-heading{
   font-family:"Arimo", Helvetica, Arial, sans-serif;
@@ -57,36 +85,29 @@ h2{
   text-align: center;
 }
 
-#footer{
-  background-color:#02133B;
-  opacity: 10%;
-  font-style: normal;
-  color: white;
+.search-chapter-by-letter{
   text-align: center;
+  font-style: normal;
+  font-size:20px;
+  text-decoration: none;
 }
 
-
-p{
-    color:black;
-    font-family: 'crimson text', Georgia, 'Times New Roman', serif;
-    font-size:1rem;
-    line-height:1.5rem
-}
-
-#footer{
-  background-color:#02133B;
-}
-
-#reqstitle{
+.search-chapter-by-letter a:link, .search-chapter-by-letter a:visited{
   text-align:center;
-  font-family:"Playfair Display", Georgia, "Times New Roman", serif;
-  color:black;
-  font-weight:bold 400;
-  font-size:1rem;
+  text-decoration:none;
+  color: black;
 }
 
-#reqsbody{
-    font-family: 'crimson text', Georgia, 'Times New Roman', serif;
-    font-size:0.6rem;
-    color:black;
+.search-chapter-by-letter a:hover, .search-chapter-by-letter a:active{
+  text-decoration: underline;
+}
+
+#school-list a:link, #school-list a:visited{
+  color: black;
+}
+
+.letters{
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
 }
