@@ -76,8 +76,12 @@ h2{
   text-align:center;
 }
 
-#homepageimage h1{
+#homepageimage {
   background-image:url("images/ktaheader.jpg");
+  height:100%;
+  background-size:cover;
+  background-position:center;
+  background-repeat: no-repeat;
   color:#000000;
 }
 
