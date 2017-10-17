@@ -64,12 +64,7 @@ h2{
   text-align:center;
 }
 
-<<<<<<< HEAD
 h3{
-=======
-
-h3 {
->>>>>>> 489d7eaed9759e7f32dd6e76cb0c45638ec59bb4
   font-family:"Arimo", Helvetica, Arial, sans-serif;
   font-size: 15px;
   font-weight: normal;
@@ -89,8 +84,6 @@ h3 a:link, a:visited{
 
 .logo{
   align:center;
-=======
->>>>>>> 489d7eaed9759e7f32dd6e76cb0c45638ec59bb4
 }
 
 .siteheading h1{
@@ -108,10 +101,7 @@ h3 a:link, a:visited{
   background-position:center;
   background-repeat: no-repeat;
   color:#000000;
-<<<<<<< HEAD
 }
-=======
->>>>>>> 489d7eaed9759e7f32dd6e76cb0c45638ec59bb4
 
 /*find page style*/
 .section-heading{
