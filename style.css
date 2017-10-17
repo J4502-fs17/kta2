@@ -109,19 +109,47 @@ h2{
   text-decoration: none;
 }
 
-#reqstitle{
+#reqstitle h1{
   font-family:"Playfair Display", Georgia, "Times New Roman", serif;
   color:black;
+  font-size:1.5rem;
+  text-align: left;
+}
+
+#reqstitle p{
+  font-family: "Crimson Text", Georgia, "Times New Roman", serif;
+  color:black;
+  font-size:1.2rem;
+  text-align: left;
+}
+
+
+#reqsbody details{
+  color:black;
+  font-family: "Crimson Text", Georgia, "Times New Roman", serif;
   font-size:1rem;
+  text-align:left;
 }
 
-#reqsbody{
+
+#quicklinks h1{
   color:black;
-  font-family: "Crimson Text", Georgia, "Times New Roman", serif;
-  font-size:0.8rem;
+  font-family:"Playfair Display", Georgia, "Times New Roman", serif;
+  font-size:1.5rem;
+  text-align:left;
 }
 
-#quicklinks{
+#quicklinks p{
   color:black;
   font-family: "Crimson Text", Georgia, "Times New Roman", serif;
+  font-size:1rem;
+  text-align:left;
+}
+
+
+#helpfullinks li{
+  text-align:left;
+  font-size:1rem;
+  font-family: "Crimson Text", Georgia, "Times New Roman", serif;
+  color:black;
 }
