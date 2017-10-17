@@ -94,7 +94,7 @@ h3 a:link, a:visited{
   text-align:center;
 }
 
-#homepageimage {
+#homepageimage{
   background-image:url("images/ktaheader.jpg");
   height:100%;
   background-size:cover;
