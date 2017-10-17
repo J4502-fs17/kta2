@@ -77,11 +77,12 @@ h2{
 #reqstitle{
   text-align:center;
   font-family:"Playfair Display", Georgia, "Times New Roman", serif;
-  color:#02133B;
+  color:#000000;
   font-weight:bold 400;
 }
 
 #reqsbody{
     font-family: 'crimson text', Georgia, 'Times New Roman', serif;
-    font-size:1rem;
+    font-size:0.5rem;
+    color:#000000;
 }
