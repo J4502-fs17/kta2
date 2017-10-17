@@ -1,11 +1,22 @@
 #nav ul{
   list-style-type:none;
-  float:left;
+  /*float:left;*/
   margin:0;
   padding:0;
   width:25%;
   text-align:left;
 }
+
+#nav li{
+display:block;
+color:#54585C;
+background-color:#F1B82D;
+text-align:center;
+text-decoration:none;
+padding:4px;
+font-family:"Arimo", Helvetica, Arial, sans-serif;
+}
+
 #nav a:link, a:visited{
   display:block;
   color:#54585C;
@@ -21,7 +32,16 @@
   background-color:#011482;
 }
 
-#membershipnav{
+#submenu ul{
+  width:100%;
+}
+
+#submenu li{
+  width:100%;
+  text-align: center;
+}
+
+/*#membershipnav{
   display:block;
   color:#54585C;
   background-color:#F1B82D;
@@ -31,7 +51,7 @@
   font-family:"Arimo", Helvetica, Arial, sans-serif;
   list-style-type:none;
 
-}
+}*/
 
 p{
   color:black;
