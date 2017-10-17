@@ -46,6 +46,12 @@ h2{
 <<<<<<< HEAD
 }
 
+.section-heading{
+  font-family:"Arimo", Helvetica, Arial, sans-serif;
+  font-size:30px;
+  text-align: center;
+>>>>>>> origin/master
+
 #footer{
   background-color:#02133B;
   opacity: 10%;
