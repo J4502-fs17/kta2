@@ -1,11 +1,22 @@
 #nav ul{
   list-style-type:none;
-  float:left;
+  /*float:left;*/
   margin:0;
   padding:0;
   width:25%;
   text-align:left;
 }
+
+#nav li{
+display:block;
+color:#54585C;
+background-color:#F1B82D;
+text-align:center;
+text-decoration:none;
+padding:4px;
+font-family:"Arimo", Helvetica, Arial, sans-serif;
+}
+
 #nav a:link, a:visited{
   display:block;
   color:#54585C;
@@ -18,19 +29,16 @@
 }
 
 #nav a:hover, #nav a:active{
-  background-color:#011482;
+  background-color:#F7D98D;
 }
 
-#membershipnav{
-  display:block;
-  color:#54585C;
-  background-color:#F1B82D;
-  text-align:center;
-  text-decoration:none;
-  padding:4px;
-  font-family:"Arimo", Helvetica, Arial, sans-serif;
-  list-style-type:none;
+#submenu ul{
+  width:100%;
+}
 
+#submenu li{
+  width:100%;
+  text-align: center;
 }
 
 p{
@@ -56,6 +64,7 @@ h2{
   text-align:center;
 }
 
+<<<<<<< HEAD
 h3 {
   font-family:"Arimo", Helvetica, Arial, sans-serif;
   font-size: 15px;
@@ -72,6 +81,23 @@ h3 a:link, a:visited{
 
 .footer{
   background-color: #02133B;
+=======
+.logo{
+  align:center;
+}
+
+.siteheading h1{
+  font-family:"Playfair Display", Georgia, "Times New Roman", serif;
+  color:#02133B;
+  /*font-size:?? idk what the font size should be*/
+  font-weight:bold 400;
+  text-align:center;
+}
+
+#homepageimage h1{
+  background-image:url("images/ktaheader.jpg");
+  color:#000000;
+>>>>>>> 1366ef2bdcff2778915f87b32a3ddeade9b79e6f
 }
 
 .section-heading{
@@ -104,4 +130,49 @@ h3 a:link, a:visited{
   font-weight: bold;
   font-size: 20px;
   text-decoration: none;
+}
+
+#reqstitle h1{
+  font-family:"Playfair Display", Georgia, "Times New Roman", serif;
+  color:black;
+  font-size:1.5rem;
+  text-align: left;
+}
+
+#reqstitle p{
+  font-family: "Crimson Text", Georgia, "Times New Roman", serif;
+  color:black;
+  font-size:1.2rem;
+  text-align: left;
+}
+
+
+#reqsbody details{
+  color:black;
+  font-family: "Crimson Text", Georgia, "Times New Roman", serif;
+  font-size:1rem;
+  text-align:left;
+}
+
+
+#quicklinks h1{
+  color:black;
+  font-family:"Playfair Display", Georgia, "Times New Roman", serif;
+  font-size:1.5rem;
+  text-align:left;
+}
+
+#quicklinks p{
+  color:black;
+  font-family: "Crimson Text", Georgia, "Times New Roman", serif;
+  font-size:1rem;
+  text-align:left;
+}
+
+
+#helpfullinks li{
+  text-align:left;
+  font-size:1rem;
+  font-family: "Crimson Text", Georgia, "Times New Roman", serif;
+  color:black;
 }
