@@ -64,8 +64,7 @@ h2{
   text-align:center;
 }
 
-<<<<<<< HEAD
-h3 {
+h3{
   font-family:"Arimo", Helvetica, Arial, sans-serif;
   font-size: 15px;
   font-weight: normal;
@@ -78,10 +77,10 @@ h3 a:link, a:visited{
   text-decoration: underline;
 }
 
-
 .footer{
   background-color: #02133B;
-=======
+}
+
 .logo{
   align:center;
 }
@@ -101,9 +100,9 @@ h3 a:link, a:visited{
   background-position:center;
   background-repeat: no-repeat;
   color:#000000;
->>>>>>> 1366ef2bdcff2778915f87b32a3ddeade9b79e6f
 }
 
+/*find page style*/
 .section-heading{
   font-family:"Arimo", Helvetica, Arial, sans-serif;
   font-size:30px;
@@ -136,6 +135,7 @@ h3 a:link, a:visited{
   text-decoration: none;
 }
 
+/*Reqs page style*/
 #reqstitle h1{
   font-family:"Playfair Display", Georgia, "Times New Roman", serif;
   color:black;
