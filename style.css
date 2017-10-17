@@ -82,10 +82,11 @@ p{
   font-family:"Playfair Display", Georgia, "Times New Roman", serif;
   color:black;
   font-weight:bold 400;
+  font-size:1rem;
 }
 
 #reqsbody{
     font-family: 'crimson text', Georgia, 'Times New Roman', serif;
-    font-size:0.5rem;
+    font-size:0.6rem;
     color:black;
 }
