@@ -56,6 +56,23 @@ h2{
   text-align:center;
 }
 
+h3 {
+  font-family:"Arimo", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+h3 a:link, a:visited{
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+
+.footer{
+  background-color: #02133B;
+}
 
 .section-heading{
   font-family:"Arimo", Helvetica, Arial, sans-serif;
@@ -71,7 +88,6 @@ h2{
 }
 
 .search-chapter-by-letter a:link, .search-chapter-by-letter a:visited{
-  text-align:center;
   text-decoration:none;
   color: black;
 }
