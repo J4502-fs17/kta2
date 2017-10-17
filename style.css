@@ -76,6 +76,11 @@ h2{
   text-align:center;
 }
 
+#homepageimage h1{
+  background-image:url("images/ktaheader.jpg");
+  color:#000000;
+}
+
 .section-heading{
   font-family:"Arimo", Helvetica, Arial, sans-serif;
   font-size:30px;
