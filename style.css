@@ -190,8 +190,12 @@ h3 a:link, a:visited{
   text-align: left;
 }
 #newsbody p{
-  color: black;
+  color:black;
   font-family: "Crimson Text", Georgia, "Times New Roman", serif;
   font-size: 1rem;
   text-align: center;
+}
+
+#newsbody a:link, a:visited{
+  color: black
 }
