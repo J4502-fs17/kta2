@@ -181,3 +181,11 @@ h3 a:link, a:visited{
   font-family: "Crimson Text", Georgia, "Times New Roman", serif;
   color:black;
 }
+
+/*newsletter page style*/
+#newsbody p{
+  color: black;
+  font-family: "Crimson Text", Georgia, "Times New Roman", serif;
+  font-size: 1rem;
+  text-align: center;
+}
