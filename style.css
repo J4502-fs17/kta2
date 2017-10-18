@@ -76,7 +76,7 @@ h3{
   color: #ffffff;
 }
 
-#footer h3 a:link, #footer h3 a:visited{
+.footer h3 a:link, .footer h3 a:visited{
   color: #ffffff;
   text-decoration: underline;
 }
@@ -140,6 +140,10 @@ h3{
 
 #school-list a:link, #school-list a:visited{
   color: black;
+}
+
+#school-list{
+  font-family:"Crimson Text", Georgia, "Times New Roman", serif;
 }
 
 .letters{
