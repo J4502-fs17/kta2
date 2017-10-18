@@ -183,6 +183,12 @@ h3 a:link, a:visited{
 }
 
 /*newsletter page style*/
+#newstitle h1{
+  font-family:"Playfair Display", Georgia, "Times New Roman", serif;
+  color:black;
+  font-size:1.5rem;
+  text-align: left;
+}
 #newsbody p{
   color: black;
   font-family: "Crimson Text", Georgia, "Times New Roman", serif;
