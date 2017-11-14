@@ -294,6 +294,10 @@ h3{
 
 @media screen and (min-width: 700px){
 
+    nav{
+      background-color:#F1B82D;
+    }
+
     #nav{
         display: flex;
         flex-direction: row;
@@ -301,10 +305,13 @@ h3{
 
     }
 
-  #nav{
+    #nav{
         border-top: none;
 }
 
+    #submenu{
+      display:none;
+    }
     .menu-trigger {
         display: none;
     }
