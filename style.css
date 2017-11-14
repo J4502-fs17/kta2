@@ -35,16 +35,34 @@ font-family:"Arimo", Helvetica, Arial, sans-serif;
 #nav a:hover, #nav a:active{
   background-color:#F7D98D;
 }
-
-/*#submenu ul{
-  width:100%;
-}*/
-
-#submenu li{
-  width:95%;
-  font-size:.8em;
+#nav {
+  display:none;
 }
 
+#submenu a:link, a:visited{
+    display:none;
+    /*color:#54585C;
+    background-color:#F1B82D;
+    text-align:center;
+    text-decoration:none;
+    padding:4px;
+    font-family:"Arimo", Helvetica, Arial, sans-serif;
+    width:95%;
+    font-size:.8em;*/
+}
+
+#submenu  a:link, a:visited{
+      display:block;
+      color:#54585C;
+      background-color:#F1B82D;
+      text-align:center;
+      text-decoration:none;
+      padding:4px;
+      font-family:"Arimo", Helvetica, Arial, sans-serif;
+      width:95%;
+      font-size:.8em;
+  }
+}
 
 p{
   color:black;
@@ -89,6 +107,7 @@ h3{
 .logo{
   align:center;
   border-style:none;
+  border-top: none;
 }
 
 .siteheading h1{
@@ -230,14 +249,7 @@ h3{
 }
 /*flexbox starts here*/
 
-#nav {
-  display:none;
-}
 
-
-#submenu{
-  display:none;
-}
 /*hamburger menu stuff starts here*/
 
 .menu-trigger {
@@ -246,6 +258,7 @@ h3{
     width: 2em;
     color:#F1B82D;
     border-style:none;
+    padding:0;
 }
 
 /*media queries start here*/
@@ -254,10 +267,20 @@ h3{
     flex-direction: column;
   }
   #submenu{
-    display:none;
+    display:block;
   }
 
-
+  /*#submenu a:link, a:visited{
+      display:none;
+      color:#54585C;
+      background-color:#F1B82D;
+      text-align:center;
+      text-decoration:none;
+      padding:4px;
+      font-family:"Arimo", Helvetica, Arial, sans-serif;
+      width:95%;
+      font-size:.8em;*/
+  }
 
 @media screen and (min-width: 700px){
 
