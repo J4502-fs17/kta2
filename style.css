@@ -3,6 +3,13 @@ body{
   margin:0 auto;
 }
 
+p{
+  color:black;
+  font-family: "Crimson Text", Georgia, "Times New Roman", serif;
+  font-size:1rem;
+  line-height:1.5rem;
+}
+
 #nav {
   list-style-type:none;
   /*float:left;*/
@@ -41,14 +48,6 @@ font-family:"Arimo", Helvetica, Arial, sans-serif;
 
 #submenu a:link, a:visited{
     display:none;
-    /*color:#54585C;
-    background-color:#F1B82D;
-    text-align:center;
-    text-decoration:none;
-    padding:4px;
-    font-family:"Arimo", Helvetica, Arial, sans-serif;
-    width:95%;
-    font-size:.8em;*/
 }
 
 #submenu  a:link, a:visited{
@@ -64,12 +63,7 @@ font-family:"Arimo", Helvetica, Arial, sans-serif;
   }
 }
 
-p{
-  color:black;
-  font-family: "Crimson Text", Georgia, "Times New Roman", serif;
-  font-size:1rem;
-  line-height:1.5rem;
-}
+
 
 
 h1{
@@ -269,17 +263,6 @@ h3{
   #submenu{
     display:block;
   }
-
-  /*#submenu a:link, a:visited{
-      display:none;
-      color:#54585C;
-      background-color:#F1B82D;
-      text-align:center;
-      text-decoration:none;
-      padding:4px;
-      font-family:"Arimo", Helvetica, Arial, sans-serif;
-      width:95%;
-      font-size:.8em;*/
   }
 
 @media screen and (min-width: 700px){
@@ -287,7 +270,7 @@ h3{
     #nav{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
 
     }
 
@@ -295,7 +278,13 @@ h3{
         border-top: none;
 }
 
+  #submenu{
+    display:none;
+  }
+
     .menu-trigger {
         display: none;
     }
+
+
 }
