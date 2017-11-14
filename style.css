@@ -246,7 +246,6 @@ h3{
 /*media queries start here*/
 @media screen and (min-width:400px){
   #nav{
-    display:flex;
     flex-direction: column;
   }
 
@@ -254,7 +253,7 @@ h3{
 
 @media screen and (min-width: 700px){
 
-    #nav /*ul li, #submenu li*/{/*how to make the "membership" clickable drop down???*/
+    #nav ul li, #submenu li{/*how to make the "membership" clickable drop down???*/
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -263,24 +262,7 @@ h3{
 
   #nav{
         border-top: none;
-    }
-    /*#nav{
-      display:grid;
-      grid-template-columns:200px 1fr 1fr;
-      grid-gap:20px;
-      grid-template-areas:
-      "a b b"
-      "c c e"
-      ". d d"
-
 }
-    .logo{
-      grid-area:a;
-    }
-
-    .siteheading{
-      grid-area:b;
-    }*/
 
     .menu-trigger {
         display: none;
