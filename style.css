@@ -296,12 +296,21 @@ h3{
 
     nav{
       background-color:#F1B82D;
+      display:block;
+      color:#54585C;
+      background-color:#F1B82D;
+      text-align:center;
+      text-decoration:none;
+      padding:4px;
+      font-family:"Arimo", Helvetica, Arial, sans-serif;
+      width:95%;
+      font-size:1.25em;
     }
 
     #nav{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
 
     }
 
@@ -314,5 +323,8 @@ h3{
     }
     .menu-trigger {
         display: none;
+    }
+    .submenu-trigger{
+      padding:0;
     }
 }
