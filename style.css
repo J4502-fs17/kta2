@@ -231,6 +231,7 @@ h3{
 
 #nav {
   display:none;
+  border-style: none;
 }
 
 /*hamburger menu stuff starts here*/
@@ -239,33 +240,52 @@ h3{
     order: 1;
     font-size: 1.75em;
     width: 2em;
-    color:#02133B;
+    color:#F1B82D;
     border-style:none;
 }
 
 /*media queries start here*/
 @media screen and (min-width:400px){
-  .menu-trigger{
+  #nav{
     display:flex;
-    justify-content: flex-end;
+    flex-direction: column;
+  }
+
+  #nav ul li, #submenu li{
 
   }
-}
 
 
 
 @media screen and (min-width: 700px){
 
-    #nav ul li, #submenu li{/*how to make the "membership" clickable drop down???*/
+    /*#nav /*ul li, #submenu li*/{/*how to make the "membership" clickable drop down???
         display: flex;
         flex-direction: row;
         justify-content: space-between;
 
-    }
+    }*/
 
-    #nav{
+  #nav{
         border-top: none;
     }
+    /*#nav{
+      display:grid;
+      grid-template-columns:200px 1fr 1fr;
+      grid-gap:20px;
+      grid-template-areas:
+      "a b b"
+      "c c e"
+      ". d d"
+
+}
+    .logo{
+      grid-area:a;
+    }
+
+    .siteheading{
+      grid-area:b;
+    }*/
 
     .menu-trigger {
         display: none;
