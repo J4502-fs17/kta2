@@ -250,15 +250,18 @@ h3{
 
 /*media queries start here*/
 @media screen and (min-width:400px){
-  #nav{ /*how to make the "membership" clickable drop down???*/
+  #nav{
     flex-direction: column;
+  }
+  #submenu{
+    display:none;
   }
 
 
 
 @media screen and (min-width: 700px){
 
-    #nav{/
+    #nav{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -273,5 +276,3 @@ h3{
         display: none;
     }
 }
-
-@media screen and (min-width:)
