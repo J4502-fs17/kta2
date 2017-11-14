@@ -249,6 +249,26 @@ h3{
   color: black
 }
 
+/*contact us style starts here*/
+
+#contactbody p{
+  color:black
+  font-family: "Crimson Text", Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-size: 1rem;
+  text-align:left;
+  }
+
+ #contactsubhead p{
+   color:black
+   font-family: "Crimson Text", Georgia, "Times New Roman", serif;
+   font-weight: bold;
+   text-align: left;
+ }
+
+
+
+
 /*advisors style starts here*/
 
 #constitution a:link,  #constitution a:visited{
