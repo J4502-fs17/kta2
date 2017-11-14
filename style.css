@@ -12,7 +12,6 @@ p{
 
 #nav {
   list-style-type:none;
-  /*float:left;*/
   margin:0 auto;
   padding:0;
   width:100%;
@@ -61,10 +60,18 @@ font-family:"Arimo", Helvetica, Arial, sans-serif;
       width:95%;
       font-size:.8em;
   }
-}
 
+  /*hamburger menu stuff starts here*/
 
-
+  .menu-trigger {
+      color:#F1B82D;
+      order: 3;
+      font-size: 1.75em;
+      width: 2em;
+      border-style:none;
+      padding:0;
+      text-decoration:none;
+  }
 
 h1{
   font-family:"Playfair Display", Georgia, "Times New Roman", serif;
@@ -235,7 +242,7 @@ h3{
   color:black;
   font-family: "Crimson Text", Georgia, "Times New Roman", serif;
   font-size: 1rem;
-  text-align: left;
+  text-align: center;
 }
 
 #newsbody a:link, #newsbody a:visited{
@@ -255,17 +262,6 @@ h3{
 /*flexbox starts here*/
 
 
-/*hamburger menu stuff starts here*/
-
-.menu-trigger {
-    order: 1;
-    font-size: 1.75em;
-    width: 2em;
-    color:#F1B82D;
-    border-style:none;
-    padding:0;
-}
-
 /*media queries start here*/
 @media screen and (min-width:400px){
   #nav{
@@ -281,7 +277,7 @@ h3{
     #nav{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
 
     }
 
@@ -289,13 +285,7 @@ h3{
         border-top: none;
 }
 
-  #submenu{
-    display:none;
-  }
-
     .menu-trigger {
         display: none;
     }
-
-
 }
