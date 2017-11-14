@@ -45,6 +45,7 @@ font-family:"Arimo", Helvetica, Arial, sans-serif;
   font-size:.8em;
 }
 
+
 p{
   color:black;
   font-family: "Crimson Text", Georgia, "Times New Roman", serif;
@@ -233,6 +234,10 @@ h3{
   display:none;
 }
 
+
+#submenu{
+  display:none;
+}
 /*hamburger menu stuff starts here*/
 
 .menu-trigger {
@@ -245,7 +250,7 @@ h3{
 
 /*media queries start here*/
 @media screen and (min-width:400px){
-  #nav{
+  #nav{ /*how to make the "membership" clickable drop down???*/
     flex-direction: column;
   }
 
@@ -253,7 +258,7 @@ h3{
 
 @media screen and (min-width: 700px){
 
-    #nav ul li, #submenu li{/*how to make the "membership" clickable drop down???*/
+    #nav{/
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -267,6 +272,6 @@ h3{
     .menu-trigger {
         display: none;
     }
-
-
 }
+
+@media screen and (min-width:)

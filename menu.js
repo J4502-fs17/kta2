@@ -9,3 +9,15 @@ $(document).ready(function() {
 	 }
 	});
 });
+
+$(document).ready(function() {
+  $('.submenu-trigger').click(function() {
+    $('#submenu').slideToggle(500);
+  });
+
+  $(window).resize(function() {
+	   if (  $(window).width() > 700 ) {
+		$('#submenu').removeAttr('style');
+	 }
+	});
+});
