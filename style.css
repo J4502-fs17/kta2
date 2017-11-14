@@ -87,6 +87,7 @@ h3{
 /*site heading and logo style*/
 .logo{
   align:center;
+  border-style:none;
 }
 
 .siteheading h1{
@@ -229,13 +230,53 @@ h3{
 /*flexbox starts here*/
 
 #nav {
-  display:flex;
+  display:none;
 }
+
+/*hamburger menu stuff starts here*/
+
+.menu-trigger {
+    order: 1;
+    font-size: 1.75em;
+    width: 2em;
+    color:#02133B;
+    border-style:none;
+}
+
 /*media queries start here*/
-/*
-@media screen and (min-width:300px){
-  #nav{
-    flex-direction:row;
+@media screen and (min-width:400px){
+  .menu-trigger{
+    display:flex;
+    justify-content: flex-end;
+
   }
 }
-*/
+
+
+
+@media screen and (min-width: 700px){
+
+    #nav ul li, #submenu li{/*how to make the "membership" clickable drop down???*/
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    #nav{
+        border-top: none;
+    }
+
+    .menu-trigger {
+        display: none;
+    }
+
+    header h1 {
+        order: 1;
+    }
+
+    nav {
+        order: 2;
+    }
+
+}
