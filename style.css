@@ -334,3 +334,26 @@ h3{
       padding:0;
     }
 }
+
+/*heading and navigation location & display order*/
+
+.logo {
+  float: left;
+  width: 65px;
+  height: 100px;
+}
+
+header.h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+  margin-top: 25px;
+}
+
+header{
+  margin-bottom:75px;
+}
+
+nav{
+  margin-bottom:10px;
+}
