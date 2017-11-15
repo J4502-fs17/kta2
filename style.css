@@ -70,10 +70,16 @@ padding:0;
       color:#F1B82D;
       order: 3;
       font-size: 1.75em;
-      width: 2em;
+      width: -1em;
       border-style:none;
       padding:0;
       text-decoration:none;
+      position:fixed;
+      right: 0;
+      top: 18%;
+      margin-top: -2.5em;
+      margin-right: 15px;
+
   }
 
   .menu-trigger a:link, /*a:hover*/{
