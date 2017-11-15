@@ -80,7 +80,6 @@ padding:0;
     color:#F1B82D;
   }
 
-
 h1{
   font-family:"Playfair Display", Georgia, "Times New Roman", serif;
   color:#02133B;
@@ -122,7 +121,7 @@ h3{
 .siteheading h1{
   font-family:"Playfair Display", Georgia, "Times New Roman", serif;
   color:#02133B;
-  /*font-size:?? idk what the font size should be*/
+  font-size:4em;
   font-weight:bold 400;
   text-align:left;
 }
@@ -154,6 +153,7 @@ h3{
   text-align:center;
   left:50%;
   transform:translate(-50%, 50%);
+  font-size:3em;
 }
 
 /*find page style*/
