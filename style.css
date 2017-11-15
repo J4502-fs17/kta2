@@ -121,7 +121,6 @@ h3{
 .siteheading h1{
   font-family:"Playfair Display", Georgia, "Times New Roman", serif;
   color:#02133B;
-  font-size:4em;
   font-weight:bold 400;
   text-align:left;
 }
@@ -153,7 +152,7 @@ h3{
   text-align:center;
   left:50%;
   transform:translate(-50%, 50%);
-  font-size:3em;
+  font-size:2em;
 }
 
 /*find page style*/
@@ -285,6 +284,30 @@ h3{
 #constitution a:hover{
   text-decoration: underline;
 }
+
+/*heading and navigation location & display order*/
+
+.logo {
+  float: left;
+  width: 65px;
+  height: 100px;
+}
+
+header.h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+  margin-top: 25px;
+}
+
+header{
+  margin-bottom:75px;
+}
+
+nav{
+  margin-bottom:10px;
+}
+
 /*flexbox starts here*/
 
 
@@ -333,27 +356,11 @@ h3{
     .submenu-trigger{
       padding:0;
     }
-}
+    .siteheading h1{
+    font-size:4em;
+  }
 
-/*heading and navigation location & display order*/
-
-.logo {
-  float: left;
-  width: 65px;
-  height: 100px;
-}
-
-header.h1 {
-  position: relative;
-  top: 18px;
-  left: 10px;
-  margin-top: 25px;
-}
-
-header{
-  margin-bottom:75px;
-}
-
-nav{
-  margin-bottom:10px;
+  .homepagetext h1{
+    font-size:3em;
+  }
 }
