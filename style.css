@@ -126,6 +126,13 @@ h3{
   font-weight:bold 400;
   text-align:left;
 }
+.subheading h1{
+  font-family:"Playfair Display", Georgia, "Times New Roman", serif;
+  color:#02133B;
+  font-weight:bold 400;
+  text-align:left;
+}
+
 
 #homepageimage{
   background-image:url("images/ktaheader.jpg");
