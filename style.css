@@ -98,7 +98,7 @@ h2{
   font-family:"Arimo", Helvetica, Arial, sans-serif;
   color:#02133B;
   font-weight:400;
-  text-align:center;
+  text-align:left;
 }
 
 h3{
@@ -110,6 +110,7 @@ h3{
   line-height: 70%;
 }
 
+
 .footer h3 a:link, .footer h3 a:visited{
   color: #ffffff;
   text-decoration: underline;
@@ -117,7 +118,8 @@ h3{
 
 .footer{
   background-color: #02133B;
-}
+  padding: 18px 18px;
+  }
 
 
 /*site heading and logo style*/
@@ -149,13 +151,30 @@ h3{
   background-size:cover;
   background-position:center;
   background-repeat: no-repeat;
+  border-style: none;
+  z-index: -1;
+}
+
+#homepagetext{
   color:white;
+  font-family:"Playfair Display", Georgia, "Times New Roman", serif;
+  font-weight:bold;
+  font-size:1.5em;
+  position:absolute;
+  left: 0;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  border:1px;
+  background-color:rgba(255,255,255,0.3);
+
 }
 
 #startingimage{
   background-image:url("images/groupphoto1.jpg");
   height:400px;
   width:100%;
+  min-width:200px;
   max-width: 600px;
   margin:auto;
   background-size:cover;
@@ -163,17 +182,11 @@ h3{
   background-repeat: no-repeat;
   color:white;
   margin-top: 0.5em;
-  background-position: 50% 50%;     }
-}
+  background-position: 50% 50%;
+  }
 
-#homepagetext h1{
-  position:absolute;
-  color:white;
-  text-align:center;
-  left:50%;
-  transform:translate(-50%, 50%);
-  font-size:2em;
-}
+
+
 
 /*find page style*/
 .search-chapter-by-letter{
@@ -281,7 +294,7 @@ h3{
   }
 
  #contactsubhead p{
-   color:black
+   color:black;
    font-family: "Crimson Text", Georgia, "Times New Roman", serif;
    font-weight: bold;
    text-align: left;
@@ -370,7 +383,7 @@ nav{
       text-decoration:none;
       padding:4px;
       font-family:"Arimo", Helvetica, Arial, sans-serif;
-      width:95%;
+      width:100%;
       font-size:1.25em;
     }
 
@@ -398,10 +411,18 @@ nav{
     font-size:4em;
   }
 
-  .homepagetext h1{
-    font-size:3em;
+  #homepagetext{
+    font-size:3.5em;
+    position:absolute;
+    left: 0;
+    top: 43%;
+    width: 100%;
+    text-align: center;
   }
-  /*.logo{
-    width:200px;
-    height: 200px;
-  }*/
+
+  #homepageimage{
+    max-width:100%
+
+  }
+
+}
