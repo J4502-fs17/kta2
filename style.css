@@ -155,9 +155,19 @@ h3{
 }
 
 #homepagetext{
-  color:white;
+  color:#02133B;
   font-family:"Playfair Display", Georgia, "Times New Roman", serif;
-  z-index:0;
+  font-weight:bold;
+  font-size:1.5em;
+  position:absolute;
+  left: 0;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  border:1px solid white;
+  background-color:white;
+  opacity: 0.3;
+
 
 }
 
@@ -176,15 +186,6 @@ h3{
   background-position: 50% 50%;
   }
 
-
-/*#homepagetext{
-  position:absolute;
-  color:white;
-  text-align:center;
-  left:50%;
-  transform:translate(-50%, 50%);
-  font-size:2em;
-}*/
 
 
 
@@ -412,7 +413,12 @@ nav{
   }
 
   #homepagetext{
-    font-size:1.5em;
+    font-size:3.5em;
+    position:absolute;
+    left: 0;
+    top: 43%;
+    width: 100%;
+    text-align: center;
   }
 
   #homepageimage{
