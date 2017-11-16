@@ -155,7 +155,7 @@ h3{
 }
 
 #homepagetext{
-  color:#02133B;
+  color:white;
   font-family:"Playfair Display", Georgia, "Times New Roman", serif;
   font-weight:bold;
   font-size:1.5em;
@@ -164,9 +164,9 @@ h3{
   top: 30%;
   width: 100%;
   text-align: center;
-  border:1px solid white;
-  background-color:white;
-  opacity: 0.3;
+  border:1px;
+  background-color:rgba(255,255,255,0.3);
+  /*opacity: 0.5;*/
 
 
 }
