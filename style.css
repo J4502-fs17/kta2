@@ -160,7 +160,7 @@ h3{
   font-family:"Playfair Display", Georgia, "Times New Roman", serif;
   font-weight:bold;
   font-size:1.5em;
-  position:absolute;
+  position:relative;
   left: 0;
   top: 30%;
   width: 100%;
@@ -415,7 +415,7 @@ nav{
     font-size:3.5em;
     position:absolute;
     left: 0;
-    top: 43%;
+    top: 50%;
     width: 100%;
     text-align: center;
   }
