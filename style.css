@@ -98,7 +98,7 @@ h2{
   font-family:"Arimo", Helvetica, Arial, sans-serif;
   color:#02133B;
   font-weight:400;
-  text-align:center;
+  text-align:left;
 }
 
 h3{
@@ -118,7 +118,8 @@ h3{
 
 .footer{
   background-color: #02133B;
-}
+  padding: 18px 18px;
+  }
 
 
 /*site heading and logo style*/
