@@ -342,7 +342,7 @@ h3{
   height: 100px;
 }
 
-header.h1 {
+header h1 {
   position: relative;
   top: 18px;
   left: 10px;
@@ -350,7 +350,7 @@ header.h1 {
 }
 
 header{
-  margin-bottom:75px;
+  margin-bottom:110px;
 }
 
 nav{
@@ -435,7 +435,6 @@ nav{
 
   #homepagetext{
     font-size:3.5em;
-    position:absolute;
     left: 0;
     top: 43%;
     width: 100%;
