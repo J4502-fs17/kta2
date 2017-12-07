@@ -119,6 +119,9 @@ cursor: pointer;
   border-color:#02133B;
 }*/
 
+#submenu li{
+  text-align: justify;
+}
 
   #submenu-trigger li a:hover{
     background-color:#F1B82D;
@@ -498,7 +501,7 @@ nav{
 
     nav #nav{
       margin:5px;
-      height: 75px;
+      height: 55px;
       text-align: center;
     }
 
@@ -509,16 +512,14 @@ nav{
 
     nav #nav li{
       text-align:center;
-      padding-top:20px;
+      padding-top:10px;
     }
 
     #nav{
         display:inline-flex;
         flex-direction: row;
         justify-content: space-around;
-
-
-    }
+        }
 
     #nav{
         border-top: none;
@@ -530,6 +531,10 @@ nav{
 
     #submenu{
       display:none;
+    }
+
+    #submenu li{
+      text-align:justify;
     }
     .menu-trigger {
         display: none;
