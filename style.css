@@ -10,6 +10,10 @@ p{
   line-height:1.5rem;
 }
 
+.siteheading h1 a:link, a:active, a:hover{
+    color:#02133B;
+  }
+
 #nav {
   list-style-type:none;
   margin:0 auto;
@@ -148,6 +152,8 @@ h4{
   font-weight:bold 400;
   text-align:left;
 }
+
+
 .subheading h1{
   font-family:"Playfair Display", Georgia, "Times New Roman", serif;
   color:#02133B;
@@ -156,6 +162,8 @@ h4{
 }
 
 
+
+/*homepage things*/
 #homepageimage{
   background-image:url("images/ktaheader.jpg");
   height:300px;
