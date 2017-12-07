@@ -111,16 +111,16 @@ cursor: pointer;
       font-family:"Arimo", Helvetica, Arial, sans-serif;
       width:95%;
       font-size:.8em;
-  }
+}
 
-#submenu li{
+/*#submenu li{
   border-style:solid;
   border-width: 1px;
   border-color:#02133B;
-}
+}*/
 
 
-  #submenu-trigger a:hover{
+  #submenu-trigger li a:hover{
     background-color:#F1B82D;
   }
 
@@ -507,16 +507,26 @@ nav{
       border-color:#02133B;
     }
 
+    nav #nav li{
+      text-align:center;
+      padding-top:20px;
+    }
+
     #nav{
         display:inline-flex;
         flex-direction: row;
         justify-content: space-around;
+
 
     }
 
     #nav{
         border-top: none;
 }
+
+  #nav a:hover{
+    width:100%;
+  }
 
     #submenu{
       display:none;
