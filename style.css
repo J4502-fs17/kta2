@@ -215,12 +215,22 @@ h4{
 
 .siteheading a:link, .siteheading a:visited{
   color:#02133B;
+  text-decoration: none;
 }
 
 /*.siteheading h1 a:link, a:active, a:hover{
     color:#02133B;
 
   }*/
+
+  .sub {
+    font-family:"Playfair Display", Georgia, "Times New Roman", serif;
+    color:#02133B;
+    font-style:italic;
+    font-size:20px;
+    float:inherit;
+
+  }
 
 
 .subheading h1{
