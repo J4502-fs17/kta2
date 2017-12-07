@@ -206,12 +206,21 @@ h4{
   border-top: none;
 }
 
+.logo img {
+  max-width: none;
+  max-height: 80px;
+}
+
 .siteheading h1{
   font-family:"Playfair Display", Georgia, "Times New Roman", serif;
   color:#02133B;
   font-weight:bold 400;
   text-align:left;
+  margin-bottom:12px;
+  margin-top:20px;
+
 }
+
 
 .siteheading a:link, .siteheading a:visited{
   color:#02133B;
@@ -222,16 +231,6 @@ h4{
     color:#02133B;
 
   }*/
-
-  .sub {
-    font-family:"Playfair Display", Georgia, "Times New Roman", serif;
-    color:#02133B;
-    font-style:italic;
-    font-size:20px;
-    float:inherit;
-
-  }
-
 
 .subheading h1{
   font-family:"Playfair Display", Georgia, "Times New Roman", serif;
@@ -336,6 +335,9 @@ h4{
     position:absolute;
 }
 
+.sub{
+  display:none;
+}
 /*Reqs page style*/
 #reqstitle h1{
   font-family:"Playfair Display", Georgia, "Times New Roman", serif;
@@ -436,16 +438,16 @@ h4{
 
 /*heading and navigation location & display order*/
 
-.logo {
+header .logo {
   float: left;
-  width: 65px;
-  height: 100px;
+  /*width: 65px;
+  height: 100px;*/
 }
 
 header h1 {
-  position: relative;
+  /*position: relative;
   top: 18px;
-  left: 10px;
+  left: 10px;*/
   margin-top: 25px;
 }
 
@@ -495,6 +497,10 @@ nav{
   }
 
 @media screen and (min-width: 700px){
+
+  .logo img{
+    max-width: 50px;
+  }
 
     nav{
       background-color:#F1B82D;
@@ -567,6 +573,20 @@ nav{
   #homepageimage{
     max-width:100%;
     text-shadow: 2px 2px #000000;
+
+  }
+
+  header .sub {
+    display:inline-flex;
+    position:relative;
+    font-family:"Playfair Display", Georgia, "Times New Roman", serif;
+    color:#02133B;
+    font-style:italic;
+    font-size:20px;
+    float:left;
+
+
+
 
   }
 
