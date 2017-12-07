@@ -48,7 +48,7 @@ padding:0;
 #nav {
   display:none;
 }
-.dropdown a:link button:hover{
+/*nav .dropdown a:link button:hover{
   display:block;
   color:#54585C;
   background-color:#F1B82D;
@@ -59,7 +59,7 @@ padding:0;
   width:95%;
   font-size:.8em;
 
-}
+}*/
 
 .dropdown button{
   display:inline-block;
@@ -79,13 +79,20 @@ padding:0;
   decoration:none;
   border-style:none;
 }
-/*.dropdown button:hover{
-  background-color:#F1B82D;
-}*/
-
-.submenu-trigger button:hover{
+/*.submenu-trigger a.button:hover{
   background-color:#F1B82D;
   color:#F1B82D;
+  display:inline-block;
+}*/
+
+.dropdown button:hover{
+background-color:#F7D98D;
+display:inline-block;
+cursor: pointer;
+}
+
+
+
 }
 
 #submenu a:link, a:visited{
@@ -104,11 +111,15 @@ padding:0;
       font-size:.8em;
   }
 
-  #submenu-trigger li a:link, a:hover{
+  #submenu-trigger a:hover{
+    background-color:#F1B82D;
+  }
+
+  /*#submenu-trigger li a:link, a:hover{
     background-color:#F7D98D;
     cursor:pointer;
 
-  }
+  }*/
 
   /*hamburger menu stuff starts here*/
 
@@ -189,10 +200,10 @@ h4{
   text-align:left;
 }
 
-.siteheading h1 a:link, a:active, a:hover{
+/*.siteheading h1 a:link, a:active, a:hover{
     color:#02133B;
 
-  }
+  }*/
 
 
 .subheading h1{
