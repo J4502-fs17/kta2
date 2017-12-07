@@ -11,12 +11,12 @@ p{
 }
 
 
+
 #nav {
   list-style-type:none;
   margin:0 auto;
   padding:0;
   width:100%;
-  text-align:left;
 }
 
 #nav li{
@@ -30,6 +30,7 @@ font-family:"Arimo", Helvetica, Arial, sans-serif;
 order: 3;
 border-style:none;
 padding:0;
+
 }
 
 #nav a:link, #nav a:visited{
@@ -100,7 +101,7 @@ cursor: pointer;
     display:none;
 }
 
-#submenu a:link, #submenu a:visited{
+#submenu a:link, #submenu a:visited, #submenu a:hover{
       display:inline-block;
       color:#54585C;
       background-color:#F1B82D;
@@ -111,6 +112,7 @@ cursor: pointer;
       width:95%;
       font-size:.8em;
   }
+
 
   #submenu-trigger a:hover{
     background-color:#F1B82D;
@@ -486,6 +488,17 @@ nav{
       font-family:"Arimo", Helvetica, Arial, sans-serif;
       width:100%;
       font-size:1.25em;
+    }
+
+    nav #nav{
+      margin:5px;
+      height: 75px;
+      text-align: center;
+    }
+
+    nav{
+      border-style:solid;
+      border-color:#02133B;
     }
 
     #nav{
