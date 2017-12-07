@@ -113,6 +113,12 @@ cursor: pointer;
       font-size:.8em;
   }
 
+#submenu li{
+  border-style:solid;
+  border-width: 1px;
+  border-color:#02133B;
+}
+
 
   #submenu-trigger a:hover{
     background-color:#F1B82D;
@@ -496,13 +502,13 @@ nav{
       text-align: center;
     }
 
-    nav{
+  nav{
       border-style:solid;
       border-color:#02133B;
     }
 
     #nav{
-        display: flex;
+        display:inline-flex;
         flex-direction: row;
         justify-content: space-around;
 
