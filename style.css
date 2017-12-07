@@ -174,6 +174,7 @@ h4{
   text-align:left;
   color:#ffffff;
   line-height: 2rem
+  margin-top:-5px;
 }
 .footer h3 a:link, .footer h3 a:visited{
   color: #ffffff;
