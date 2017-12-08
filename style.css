@@ -563,6 +563,10 @@ nav{
     font-size:4em;
   }
 
+  header .siteheading{
+    margin-bottom:auto;
+  }
+
   #homepagetext{
     font-size:3.5em;
     left: 0;
@@ -585,11 +589,11 @@ nav{
     font-style:italic;
     font-size:20px;
     margin:auto;
+  }
 
-
-
-
-
+  .sub{
+    float:left;
+    margin-top:none;
   }
 
 }
