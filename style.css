@@ -521,9 +521,11 @@ nav{
 
 @media screen and (min-width: 700px){
 
-  .logo img{
-    max-width: 70px;
-    height:80px;
+  header .logo img{
+    max-width: 80px;
+    height:100px;
+    margin-top:33px;
+    
   }
 
     nav{
