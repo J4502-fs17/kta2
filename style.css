@@ -10,12 +10,13 @@ p{
   line-height:1.5rem;
 }
 
+
+
 #nav {
   list-style-type:none;
   margin:0 auto;
   padding:0;
   width:100%;
-  text-align:left;
 }
 
 #nav li{
@@ -29,9 +30,10 @@ font-family:"Arimo", Helvetica, Arial, sans-serif;
 order: 3;
 border-style:none;
 padding:0;
+
 }
 
-#nav a:link, a:visited{
+#nav a:link, #nav a:visited{
   display:block;
   color:#54585C;
   background-color:#F1B82D;
@@ -39,30 +41,103 @@ padding:0;
   text-decoration:none;
   padding:4px;
   font-family:"Arimo", Helvetica, Arial, sans-serif;
+
 }
 
-#nav a:hover, #nav a:active{
+#nav li a:hover, #nav a:active{
   background-color:#F7D98D;
 }
 #nav {
   display:none;
 }
+/*nav .dropdown a:link button:hover{
+  display:block;
+  color:#54585C;
+  background-color:#F1B82D;
+  text-align:right;
+  text-decoration:none;
+  padding:4px;
+  font-family:"Arimo", Helvetica, Arial, sans-serif;
+  width:95%;
+  font-size:.8em;
 
-#submenu a:link, a:visited{
+}*/
+
+.dropdown button{
+  display:inline-block;
+  color:#54585C;
+  background-color:#F1B82D;
+  text-align:center;
+  text-decoration:none;
+  padding:4px;
+  font-family:"Arimo", Helvetica, Arial, sans-serif;
+  width:95%;
+  font-size:1em;
+  border-style:none;
+  cursor:pointer;
+}
+
+.dropdown button:visited{
+  decoration:none;
+  border-style:none;
+  background-color: #F1B82D;
+}
+/*.submenu-trigger a.button:hover{
+  background-color:#F1B82D;
+  color:#F1B82D;
+  display:inline-block;
+}*/
+
+.dropdown span:hover{
+background-color:#F7D98D;
+display:inline-block;
+cursor: pointer;
+}
+
+
+
+}
+
+#submenu a:link, #submenu a:visited{
     display:none;
 }
 
-#submenu  a:link, a:visited{
-      display:block;
+#submenu a:link, #submenu a:visited, #submenu a:hover{
+      display:inline-block;
       color:#54585C;
       background-color:#F1B82D;
-      text-align:right;
+      text-align:center;
       text-decoration:none;
-      padding:4px;
+      padding:2px;
       font-family:"Arimo", Helvetica, Arial, sans-serif;
       width:95%;
       font-size:.8em;
+}
+
+#submenu li a:hover{
+  background-color:#F1B82D;
+
+}
+
+/*#submenu li{
+  border-style:solid;
+  border-width: 1px;
+  border-color:#02133B;
+}*/
+
+#submenu li{
+  text-align: justify;
+}
+
+  #submenu-trigger li a:hover{
+    background-color:#F1B82D;
   }
+
+  /*#submenu-trigger li a:link, a:hover{
+    background-color:#F7D98D;
+    cursor:pointer;
+
+  }*/
 
   /*hamburger menu stuff starts here*/
 
@@ -76,14 +151,40 @@ padding:0;
       text-decoration:none;
       position:fixed;
       right: 0;
-      top: 18%;
-      margin-top: -2.5em;
-      margin-right: 15px;
+      top: 0;
+      margin-top: 1.2em;
+      margin-right: .5em;
 
   }
 
   .menu-trigger a:link, /*a:hover*/{
     color:#F1B82D;
+  }
+
+
+  /* We're floating the header elements
+  so they all go left together.*/
+
+  header .siteheading {
+    float:left;
+  }
+
+  header .siteheading h1 {
+    margin-top: 29px;
+    margin-bottom:0px;
+
+  }
+
+header .logo img{
+  margin-top:7px;
+
+}
+
+
+  header::after{
+    content:"";
+    clear:both;
+    display:table;
   }
 
 h1{
@@ -110,7 +211,15 @@ h3{
   line-height: 70%;
 }
 
-
+h4{
+  font-family:"Arimo", Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  font-weight:normal;
+  text-align:left;
+  color:#ffffff;
+  line-height: 2rem
+  margin-top:-5px;
+}
 .footer h3 a:link, .footer h3 a:visited{
   color: #ffffff;
   text-decoration: underline;
@@ -127,14 +236,34 @@ h3{
   align:center;
   border-style:none;
   border-top: none;
+  margin-right:15px;
+}
+
+.logo img {
+  max-width: none;
+  max-height: 80px;
 }
 
 .siteheading h1{
   font-family:"Playfair Display", Georgia, "Times New Roman", serif;
   color:#02133B;
-  font-weight:bold 400;
+  font-weight:bold;
   text-align:left;
+  margin-bottom:12px;
 }
+
+
+
+.siteheading a:link, .siteheading a:visited{
+  color:#02133B;
+  text-decoration: none;
+}
+
+/*.siteheading h1 a:link, a:active, a:hover{
+    color:#02133B;
+
+  }*/
+
 .subheading h1{
   font-family:"Playfair Display", Georgia, "Times New Roman", serif;
   color:#02133B;
@@ -143,6 +272,8 @@ h3{
 }
 
 
+
+/*homepage things*/
 #homepageimage{
   background-image:url("images/ktaheader.jpg");
   height:300px;
@@ -238,6 +369,9 @@ h3{
     position:absolute;
 }
 
+.sub{
+  display:none;
+}
 /*Reqs page style*/
 #reqstitle h1{
   font-family:"Playfair Display", Georgia, "Times New Roman", serif;
@@ -338,26 +472,17 @@ h3{
 
 /*heading and navigation location & display order*/
 
-.logo {
+header .logo {
   float: left;
-  width: 65px;
-  height: 100px;
+  /*width: 65px;
+  height: 100px;*/
 }
 
-header.h1 {
-  position: relative;
-  top: 18px;
-  left: 10px;
-  margin-top: 25px;
-}
 
-header{
-  margin-bottom:75px;
-}
 
 nav{
   margin-bottom:10px;
-  margin-top: -40px;
+  margin-top: 10px;
 }
 
 /*back-to-top button starts here*/
@@ -398,6 +523,13 @@ nav{
 
 @media screen and (min-width: 700px){
 
+  header .logo img{
+    max-width: 80px;
+    height:100px;
+    margin-top:33px;
+    
+  }
+
     nav{
       background-color:#F1B82D;
       display:block;
@@ -409,35 +541,67 @@ nav{
       font-family:"Arimo", Helvetica, Arial, sans-serif;
       width:100%;
       font-size:1.25em;
+
+    }
+
+   nav{
+      margin-top:38px;
+    }
+
+    nav #nav{
+      margin:5px;
+      height: 55px;
+      text-align: center;
+    }
+
+  nav{
+      border-style:solid;
+      border-color:#02133B;
+    }
+
+    nav #nav li{
+      text-align:center;
+      padding-top:10px;
     }
 
     #nav{
-        display: flex;
+        display:inline-flex;
         flex-direction: row;
         justify-content: space-around;
-
-    }
+        }
 
     #nav{
         border-top: none;
 }
 
+  #nav a:hover{
+    width:100%;
+  }
+
     #submenu{
       display:none;
+    }
+
+    #submenu li{
+      text-align:justify;
     }
     .menu-trigger {
         display: none;
     }
     .submenu-trigger{
       padding:0;
+      /*float:right;*/
     }
     .siteheading h1{
     font-size:4em;
   }
 
+  header .siteheading{
+    /*margin-bottom:auto;*/
+  }
+
   #homepagetext{
     font-size:3.5em;
-    position:absolute;
     left: 0;
     top: 43%;
     width: 100%;
@@ -446,6 +610,21 @@ nav{
 
   #homepageimage{
     max-width:100%;
+    text-shadow: 2px 2px #000000;
+
+  }
+
+  header .sub {
+    display:block;
+    /*position:relative;*/
+    font-family:"Playfair Display", Georgia, "Times New Roman", serif;
+    color:#02133B;
+    font-style:italic;
+    font-size:20px;
+    /*margin:auto;*/
+  }
+
+  .sub{
 
   }
 
