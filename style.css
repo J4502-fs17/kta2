@@ -354,8 +354,7 @@ h4{
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
-    height:0;
-		max-width: 800px;
+		max-width: 2800px;
 		max-height: 600px;
     margin-bottom: 50px;
     margin-top: 40px;
@@ -372,6 +371,25 @@ h4{
 .sub{
   display:none;
 }
+
+@media screen and (min-width: 500px){
+  article{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas:
+        "a b"
+  }
+
+  .school-list{
+    grid-template-areas: a;
+  }
+
+  .map-wrapper{
+    grid-template-areas: b;
+  }
+}
+
+
 /*Reqs page style*/
 #reqstitle h1{
   font-family:"Playfair Display", Georgia, "Times New Roman", serif;
@@ -527,7 +545,7 @@ nav{
     max-width: 80px;
     height:100px;
     margin-top:33px;
-    
+
   }
 
     nav{
