@@ -82,6 +82,10 @@ padding:0;
   border-style:none;
   background-color: #F1B82D;
 }
+
+.dropdown button:focus{
+  outline:0;
+}
 /*.submenu-trigger a.button:hover{
   background-color:#F1B82D;
   color:#F1B82D;
@@ -628,7 +632,7 @@ nav{
     .submenu-trigger{
       padding:0;
       /*float:right;*/
-        outline:0;
+
     }
     .siteheading h1{
     font-size:4em;
