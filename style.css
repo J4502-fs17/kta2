@@ -88,10 +88,6 @@ padding:0;
   display:inline-block;
 }*/
 
-.dropdown button:focus{
-  outline:0;
-}
-
 .dropdown span:hover{
 background-color:#F7D98D;
 display:inline-block;
@@ -101,7 +97,6 @@ cursor: pointer;
 
 
 }
-
 
 #submenu a:link, #submenu a:visited{
     display:none;
@@ -117,7 +112,6 @@ cursor: pointer;
       font-family:"Arimo", Helvetica, Arial, sans-serif;
       width:95%;
       font-size:.5em;
-
 }
 
 
@@ -323,8 +317,6 @@ h4{
   margin-bottom: 10px;
 }
 
-
-
 /*find page style*/
 .search-chapter-by-letter{
   text-align: center;
@@ -416,7 +408,6 @@ h4{
   text-align:left;
 }
 
-summary{font-size: 1.5rem;}
 
 #quicklinks h1{
   color:black;
@@ -628,8 +619,6 @@ nav{
 
     #submenu li{
       text-align:justify;
-      position:relative;
-      z-index: 10;
     }
     .menu-trigger {
         display: none;
@@ -670,6 +659,8 @@ nav{
     /*margin:auto;*/
   }
 
+  .sub{
 
+  }
 
 }
