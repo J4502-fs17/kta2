@@ -619,13 +619,16 @@ nav{
 
     #submenu li{
       text-align:justify;
+      position:relative;
     }
+
     .menu-trigger {
         display: none;
     }
     .submenu-trigger{
       padding:0;
       /*float:right;*/
+        outline:0;
     }
     .siteheading h1{
     font-size:4em;
