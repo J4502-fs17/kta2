@@ -117,6 +117,7 @@ cursor: pointer;
       font-family:"Arimo", Helvetica, Arial, sans-serif;
       width:95%;
       font-size:.5em;
+
 }
 
 
@@ -628,6 +629,8 @@ nav{
 
     #submenu li{
       text-align:justify;
+      position:relative;
+      z-index: 10;
     }
     .menu-trigger {
         display: none;
@@ -668,8 +671,6 @@ nav{
     /*margin:auto;*/
   }
 
-  .sub{
 
-  }
 
 }
