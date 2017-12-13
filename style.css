@@ -88,6 +88,10 @@ padding:0;
   display:inline-block;
 }*/
 
+.dropdown button:focus{
+  outline:0;
+}
+
 .dropdown span:hover{
 background-color:#F7D98D;
 display:inline-block;
@@ -97,6 +101,7 @@ cursor: pointer;
 
 
 }
+
 
 #submenu a:link, #submenu a:visited{
     display:none;
